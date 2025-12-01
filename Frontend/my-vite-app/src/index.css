@@ -1,0 +1,42 @@
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background: white;
+  padding: 30px;
+  width: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+  font-size: 1.2rem;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  background-color: #48c7ec;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  background-color: #2aa8c9;
+}
+.carousel img {
+  max-height: 500px; /* Adjust height as needed */
+  object-fit: cover;  /* Ensures the image covers the area without distortion */
+}
